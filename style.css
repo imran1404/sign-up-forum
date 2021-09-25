@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(216, 249, 250);
+    
+}
+.container{
+    height: 400px;
+    width: 850px;
+    background-color: #F8F8F8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.register a{
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+.create{
+    padding: 3px 10px;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid rgb(212, 212, 212);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+    
+}
+button:hover{
+    background-color: rgb(221, 220, 220);
+}
+.forum{
+    
+    height: 300px;
+    text-align: center;
+    margin: 5px;
+}
+.forum h1{
+    font-size: 20px;
+    margin: 20px;
+}
+.connect{
+    background-color: rgb(43, 43, 255);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 3px 10px;
+}
+.forum p a{
+    text-decoration: none;
+    color: black;
+}
+/* copied from stack overflow */
+span:after,
+span:before{
+content:"\00a0\00a0\00a0\00a0\00a0";
+text-decoration:line-through;
+}
+.forum p{
+    margin: 15px;
+}
+.footer{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+   
+}
+div ul li {
+    display: inline;
+    
+}
+div ul li a {
+    text-decoration: none;
+    color: blue;
+    padding: 0 5px;
+}
+hr{
+    color: rgba(0, 0, 0, 0.233);
+}
+
+input{
+    margin: 5px 0px;
+    padding: 3px 20px;
+}
+.email{
+    font-weight: 600;
+    padding-right: 110px;
+}
+.pass{
+    font-weight: 600;
+    padding-right: 40px;
+}
+.forget{
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+.final{
+    margin: 15px;
+    padding: 3px 78px;
+    background-color:rgb(44, 185, 44);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
